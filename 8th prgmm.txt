@@ -1,0 +1,25 @@
+//c programm read the month no from the user check weather it is valid month or not
+ 
+#include <stdio.h>
+
+int main()
+
+{
+  
+  int month;
+
+  printf("enter the month");
+
+  scanf("%d",&month);
+ 
+ if(month>=1 && month<=12)
+
+  printf("the user entered month is valid");
+ 
+else
+ 
+printf("the user entered month is not valid");
+   
+ return 0;
+
+}

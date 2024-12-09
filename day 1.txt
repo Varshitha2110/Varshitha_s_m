@@ -1,0 +1,15 @@
+// write a program to say hello world
+#include<stdio.h>
+    
+int main()
+
+{
+   
+ printf("Good morning \n");
+
+    
+    printf("This is our first C programming session \n");
+ 
+   return(0);
+
+}

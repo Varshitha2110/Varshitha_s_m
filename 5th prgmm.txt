@@ -1,0 +1,26 @@
+// c prmm to read  an integer as input from the user & check wheather it is multiple of 3&5 or not?
+
+#include <stdio.h>
+
+
+int main()
+
+{
+   
+ int n;
+ 
+ printf("enter the integer value");
+
+  scanf("%d",&n);
+ 
+ if(n%3==0  &&  n%5==0)
+
+  printf("the n is divisible by 3 and 5");
+
+ else
+
+ printf("the n is not divisible by 3 and 5");
+
+   return 0;
+
+}
